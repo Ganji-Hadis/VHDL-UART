@@ -4,7 +4,7 @@ Implement UART communication
 #Top Madule
 
 	library IEEE;
- 	se IEEE.STD_LOGIC_1164.ALL;
+ 	use IEEE.STD_LOGIC_1164.ALL;
 	-----------------------------------------------------------------
 	entity Main is
 		port( dataInTransmiter: in std_logic_vector(6 downto 0);
