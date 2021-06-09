@@ -1,7 +1,8 @@
 # VHDL-UART
 Implement UART communication
 
-// Top Madule
+#Top Madule
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 -----------------------------------------------------------------
@@ -41,7 +42,8 @@ rx: Receiver port map(clk, '0', '1', frame, dataOutReciver , valid);
 end Behavioral;
 
 *********************************************************************************************
-//Sub Madule: Transmitter
+#Sub Madule: Transmitter
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
@@ -159,7 +161,8 @@ begin
 end Behavioral;
 
 ****************************************************************************************************
-//Sub Madule: Receiver
+#Sub Madule: Receiver
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 -----------------------------------------------------------
@@ -275,7 +278,7 @@ begin
 end Behavioral;
 
 **************************************************************************************************
-//TestBench
+#TestBench
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
